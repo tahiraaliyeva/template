@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none; 
+    word-spacing: normal; 
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+nav{
+    background-color: transparent;
+    max-width: 1440px;
+    height: 69px;
+    margin-top: 60px;
+    margin-left: 40px;
+    box-sizing: border-box;
+}
+
+label.name{
+    color: black;
+    font-size: 45px;
+    box-sizing: border-box;
+    padding-left: 45px;
+    margin-top: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;  
+}
+
+nav ul{
+    float: right;
+    margin-right:45px;
+    word-spacing: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 90px;
+    margin: 0 25px;
+}
+
+nav ul li a{
+    color: #07043B;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Raleway";
+}
+
+.cube{
+    max-width: 700px;
+    height: 450px;
+    background-color: transparent;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    display: flex;   
+    margin: 0;   
+}
+
+.cube2{
+    max-width: 700px;
+    height: 450px;
+    background-color:transparent;
+    top: 100px;
+    left: 900px;
+    display: flex;
+    margin: auto;
+    margin-top: -351px;
+    margin-left: 800px;
+    background-size: cover;
+}
+
+span{
+    font-family: 'Raleway';   
+    padding-top: 70px;
+    font-size: 40px;
+    padding-left: 25px;
+    color: #07043B;
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Open Sans';
+    padding-top: 1px;
+}
+
+label{
+    position: relative;
+}
+
+input[type="text"]{
+    border: none;
+    width:300px;
+    height: 43px;
+    padding: 0 16px;
+    border-radius: 4px;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+    margin-top: 15px;
+    margin-left: -1px;
+    font-size: 19px;
+}
+
+button{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    bottom: 0;
+    background-color:  #6C9BFF;
+    color: white;
+    padding: 0 16px;
+    letter-spacing: 2px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    height: 43px;
+    border-radius: 4px;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+    left: 313px;
+    width: 158px;
+}
+
+button:hover{
+    transition: .8s;
+    background-color: #6c6c6c;
+}
+
+.web2{
+    width: 1550px;
+    height: 753px;
+    background-color: transparent;
+    margin-top: 75px;
+    background-image:url("../img/Rectangle.png");
+    position: relative;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 1350px;
+    height: 500px;
+    background-color: transparent;
+    margin-top: 40px;
+    position: absolute;
+    left: 115px;
+    top: 65px;
+    box-sizing: border-box;
+}
+
+.mainright{
+    width: 550px;
+    height: 430px;
+    background-color: transparent;
+    position: absolute;
+    background-image: url("../img/web2.png");
+    box-sizing: border-box;
+    right: 50px;
+    background-size: cover;
+    margin-top: 55px;
+}
+
+.mainleft{
+    width: 720px;
+    height: 500px;
+    background-color: transparent;
+    position: absolute;
+    box-sizing: border-box;  
+}
+
+.word1{
+    font-size: 47px;
+    font-family: 'Raleway';
+    font-weight: bold;
+    padding-top: 15px;
+    padding-left: 0px;
+    color: #07043B;
+    box-sizing: border-box;
+}
+
+.word2{
+    font-size: 20px;
+    font-family: 'Raleway';
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    color: #07043B;
+    box-sizing: border-box;
+}
+
+.twitter{
+    width: 400px;
+    height: 230px;
+    background-color:white;
+    margin-top: 35px;
+    margin-left: 15px;
+    border-radius: 10px;
+    Offset: 0px, 0px rgba(56, 56, 56, 0.0459);
+}
+
+a{
+    color: #71DFCC;
+    text-decoration-line: underline;
+    padding-left: 30px;
+    font-weight: bold;
+    font-size: 25px;
+    top: 20px;
+}
+
+.twitterword{
+    font-size: 18px;
+    color: #07043B;
+    font-family: "Open Sans"; 
+    padding-left: 35px;
+    padding-top:25px;
+    padding-right: 24px;
+    box-sizing: border-box;
+}
+
+.symbol{
+    padding-top: 20px;
+    padding-left: 32px;
+}
+
+.pic{
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.bold{
+    color: #07043B;
+    margin-left: 10px;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+
+.bottom{
+    font-size: 11px;
+    color: #07043B;
+    margin-left: 87px;
+    box-sizing: border-box;
+    margin-top: -15px;
+}
+
+ul li i{
+    padding-left: 145px;
+    padding-top: -20px;
+}    
